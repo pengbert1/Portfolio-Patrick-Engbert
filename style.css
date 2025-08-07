@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'pixels';
+    src: url('fonts/PixelFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'molgan';
+    src: url('fonts/MolganFont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color:#1DCD9F;
+
+}
+
+
+.header{
+    justify-content: left;
+    color: #1DCD9F;
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+
+}
+
+.home-btn{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.home-btn img{
+    width: 20px;
+    height: auto;
+
+
+}
+
+.github-btn img{
+    width: 20px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.github-btn {
+    text-align: center;
+    width: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.linkedin-btn {
+    text-align: center;
+    width: 30px;
+    height: auto;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+
+}
+.linkedin-btn img {
+    width: 30px;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.main-area{
+    flex-basis: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.main-area h1{
+    font-size: clamp(20pt, 10vmin, 50pt);
+    font-family: pixels;
+}
+
+.main-area h3{
+    font-size: clamp(14pt, 5vmin, 30pt);
+    font-family: pixels;
+    color: white;
+}
+.intro{
+    align-self: center;
+    justify-self: center;
+    color: #1DCD9F;
+    border: 5px dashed #19e315;
+    padding: 40px;
+    border-radius: 0px 40px 0px 0px;
+    border-top: 5px dashed #ffffff;
+    border-right: 5px dashed #fdfdfd;
+
+
+}
+
+.button-area{
+    display: flex;
+    align-self: center;
+    margin-top: 40px;
+}
+
+
+.projects-btn{
+    margin: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 30px;
+    color: #19e315;
+    border: 5px solid  #19e315;
+    text-decoration: none;
+
+}
+
+
+
+
+.resume-btn{
+    margin: 20px;
+    background-color: #000000;
+    padding: 30px;
+    color: #ffe207;
+    border-radius: 5px;
+    border: 5px solid #ffe207;
+    text-decoration: none;
+}
+
+
+a:active {
+    
+    transform: translateY(10px); /* make button move down when clicked */
+}
+
+
+.projects-header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.projects-header h1{
+    font-size: clamp(20pt, 10vmin, 50pt);
+    font-family: pixels;
+    align-self: center;
+    justify-self: center;
+    color: #1DCD9F;
+    border: 5px dashed #19e315;
+    padding: 40px;
+    border-radius: 0px 40px 0px 0px;
+    border-top: 5px dashed #ffffff;
+    border-right: 5px dashed #fdfdfd;
+
+}
+
+.projects-grid{
+    display: grid;
+}
+
